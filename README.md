@@ -21,6 +21,7 @@ because working with all the different types was horrible.
   
 # TODO  
   
+* Figure out how to make this GitHub page.  
 * Interface  
     * Add map selection UI  
         * (Currently automatically selects pl_upward.bsp)  
