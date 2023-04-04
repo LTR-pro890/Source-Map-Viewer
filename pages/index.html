@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Source Map Viewer</title>
+
+        <link rel="stylesheet" href="styles.css">
+
+        <script defer src="main.js"></script>
+        <script defer src="runtime.js"></script>
+        <script defer src="vendors.js"></script>
+        
+    </head>
+    <body>
+
+        <div id="dropzone">
+            <div id="dropzone-content">
+                <div id="dropzone-text">
+                    File Dropzone
+                    <br />
+                    <div id="dropzone-fileList"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="renderer-container">
+            <canvas id="renderer-canvas"></canvas>
+            <div id="renderer-info">
+                <div id="renderer-info-drawCalls"></div>
+                <div id="renderer-info-frame"></div>
+                <div id="renderer-info-maxFPS"></div>
+            </div>
+        </div>
+
+    </body>
+</html>
