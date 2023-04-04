@@ -7,7 +7,7 @@ Simply drag and drop the game folder into the browser to view any map.
 ![Source Engine Map Viewer](./resources/Screenshot%202023-04-04%20165938.png "Source Engine Map Viewer")  
   
 Currently only Team Fortress 2 is supported as it's the only game I've tested with.  
-But adding Half-Life 2, Left 4 Dead 2, & Portal 2 should be pretty easy.  
+But adding Half-Life 2, Left 4 Dead 2, Portal 2, & Garry's Mod should be pretty easy.  
   
 ![Source Engine Shadow](./resources/Screenshot%202023-04-04%20165917.png "Source Engine Shadow")  
   
@@ -35,6 +35,7 @@ because working with all the different types was horrible.
     * Materials  
         * Implement water shader.  
     * Lighting  
+        * Lightmap merging is slightly off. (UV's are messed up.)  
         * Displacement lighting is wrong.  
         * No ambient light.  
         * Lights are too bright.  
