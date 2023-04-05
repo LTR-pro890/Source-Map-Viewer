@@ -23,6 +23,14 @@ This was originally made in JavaScript
 but I've decided to convert it to TypeScript  
 because working with all the different types was horrible.  
   
+# Usage  
+  
+Until I figure out how to make a GitHub page you'll need to host it locally.  
+1. Clone the repository  
+2. Install dependencies `npm install`  
+3. Run dev `npm run start`  
+4. Change map path at the start of [src/index.ts](src/index.ts)
+  
 # TODO  
   
 * Figure out how to make this GitHub page.  

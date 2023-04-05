@@ -3,6 +3,11 @@ import { DirEntry, DirFile, DirType, TransferDirectory } from "./common/Director
 import { Utils } from "./common/Utils";
 
 
+
+const MAP_BSP_PATH = 'Team Fortress 2\\tf\\maps\\pl_upward.bsp';
+
+
+
 // Testing imports DELETE LATER.
 import { BSP_Parser, Lumps } from "./SourceEngine/bsp/parser";
 import * as THREE from 'three';
@@ -44,8 +49,7 @@ async function CreateViewer(dataTransfer: DataTransfer) {
 
 
 
-    // const bspFile = await transferDir.getFile('Team Fortress 2\\tf\\maps\\video_test1.bsp');
-    const bspFile = await transferDir.getFile('Team Fortress 2\\tf\\maps\\pl_upward.bsp');
+    const bspFile = await transferDir.getFile(MAP_BSP_PATH);
     if(bspFile === undefined) {
         throw new Error('Could not find file.');
     }
