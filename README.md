@@ -1,4 +1,10 @@
   
+# No updates  
+  
+I am currently making source-engine-utils that will be utils to read and write source engine files.  
+So I'll just make that and add a demo ontop of that to view source engine maps.  
+So that's why there will be no futher updates on this.  
+  
 # Source Engine Map Viewer  
   
 View Source engine maps in your browser.  
